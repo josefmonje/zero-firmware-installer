@@ -32,5 +32,5 @@ fi
 # Install and setup files
 sudo cp -f ~/zero-gadget-firmware/config.txt /boot/
 sudo cp -f ~/zero-gadget-firmware/modules /etc/
-sudo cp -f ~/HackPi/rc.local /etc/
+sudo cp -f ~/zero-gadget-firmware/rc.local /etc/
 sudo chmod +x /etc/rc.local
