@@ -9,6 +9,10 @@
 
 KERNEL_VERSION=$(uname -r)
 
+# Update Packages and ensure dependencies are installed
+sudo apt-get update
+sudo apt-get dist-upgrade -y
+
 # Check if kernel module is there, otherwise download kernel and patch
 if [ -f ~/zero-gadget-firmware/dwc2/dwc2."$KERNEL_VERSION".ko ] ;
 then
