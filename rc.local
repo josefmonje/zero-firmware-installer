@@ -21,4 +21,7 @@ fi
 modprobe -r g_ether
 modprobe libcomposite
 
+# Configure gadget
+
+
 exit 0
