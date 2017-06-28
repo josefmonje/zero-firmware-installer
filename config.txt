@@ -56,4 +56,3 @@
 dtparam=audio=on
 
 dtoverlay=dwc2
-
